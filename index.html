@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container pt-2">
+            <h1 class="pb-3 text-muted text-center "> Bookmarker</h1>
+            <hr>
+
+            <div class="form-project text-center my-5 py-4">
+                <h2> Bookmark your favorite sites</h2>
+                <div class="form-groub mx-5">
+                    <label class="text-center font-weight-bold ">site name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Bookmark name">
+                </div>
+                <div class="form-groub mx-5">
+                    <label class="text-center font-weight-bold">site URL</label>
+                    <input type="text" id="url" class="form-control" placeholder="website URL">
+                </div>
+                <button id="addbtn" disabled  class="btn btn-secondary my-3" onclick="addData()">Submit</button>
+            </div>
+            
+
+
+        
+        <input  onkeyup="search(this.value)" type="text" class="my-3 form-control" placeholder="search by Bookmark name">
+
+
+        <div class="output">
+            <table class="table">
+                <thead>
+                    
+                </thead>
+                <tbody id="tableBody">
+
+
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <footer>
+            <h6 class="text-muted">2019 Bookmarker Inc</h6>
+        </footer>
+    </div>
+
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

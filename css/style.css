@@ -1,0 +1,32 @@
+
+body{
+    background-color: #f7ecde;
+}
+
+.container h1{
+    color: #352e28;
+    position: relative;
+}
+
+ h1::before{
+    
+    content: "";
+    position: absolute;
+    width: 18%;
+    height: 30%;
+    left: 41%;
+    bottom: 10px;
+    background-color: #fec260;
+    z-index: -1;
+
+}
+
+.container .btn{
+    color:white !important;
+    /* background-color:#fec260; */
+}
+
+
+.form-project, .output{
+    background-color:rgba(189, 160, 121, 0.662) !important;
+}
